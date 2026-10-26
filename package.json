@@ -1,21 +1,9 @@
 {
-  "name": "ci",
+  "name": "calculator-ci",
   "version": "1.0.0",
-  "description": "Ian",
-  "main": "calculato.test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CodeDexx/ci.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/CodeDexx/ci/issues"
-  },
-  "homepage": "https://github.com/CodeDexx/ci#readme"
+  "scripts": {
+    "test": "node --test"
+  }
 }
