@@ -1,13 +1,13 @@
-name: My first workflow
+# name: My first workflow
 
-on: [push]
+# on: [push]
 
-jobs:
-  say-hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print a message
-        run: echo "Hello from GitHub Actions! - Ian"
+# jobs:
+#   say-hello:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Print a message
+#         run: echo "Hello from GitHub Actions! - Ian"
 
 name: Calculator tests
 on: [push]
